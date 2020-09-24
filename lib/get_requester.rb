@@ -1,5 +1,5 @@
 class GetRequester
-  require 'open-uri'
+  require 'open_uri'
   require 'net/http'
   require 'json'
   attr_reader :url 
